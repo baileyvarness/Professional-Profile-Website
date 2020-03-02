@@ -14,36 +14,6 @@
 </head>
 <body>
 
-<!-- NAVIGATION -->
-
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-<div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/logo2.png" alt="bailey circle"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link href="#">Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link href="#">Connect</a>
-            </li>
-        </ul>
-    </div>
-</div>
-</nav>
-
 
 
 
@@ -95,7 +65,7 @@
         <div class="col-lg-8 lead padding-left ">
             <p>I'm a full-stack developer knowledgeable in MEAN, C#, and Python with a passion for building, learning, creating, problem solving, and coordinating with a team.</p>
             <p>My Masters Degree in Performance and Acting, combined with my 5+ years of experience in client management, video production, and directing meetings provide me with a well-versed tool belt to solve any problem ahead of me with great confidence. </p>
-            <p>I am seeking opportunities where I can contribute to a team in a meaningful way, while improving our community at large with new and exciting products.</p>
+            <p>I am seeking opportunities where I can contribute to a team in a meaningful way, while helping my community at the world at large with new and exciting products.</p>
             <br>
         </div>
         <div class="col-lg-4">
@@ -111,6 +81,12 @@
 <!-- PROJECTS CARDS  -->
 <div class="container-fluid padding">
     <div class="row padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Projects</h1>
+            </div>
+            <hr class="padding">
+        </div>
         <div class="col-md-4">
             <div class="card">
                 <img class="card-img-top" src="img/card01.jpg" alt="team pic">
@@ -121,7 +97,10 @@
                         <li>Created database schema along with intricate controllers and models using Express, Node.js, and MongoBD/Mongoose for data collection</li>
                         <li>Front end designed with ease of client use in mind using JavaScript, Angular, Twitter Bootstrap, HTML5, and CSS3</li>
                     </ul></p>
-                    <a href="#" class="btn btn-outline-secondary">Coming Soon!</a>
+                    <div class="temp-button">
+                        <p>Coming Soon!</p>
+                    </div>
+                    <!-- <a href="" class="btn btn-outline-secondary">Coming Soon!</a> -->
                 </div>
             </div>
         </div>
@@ -135,7 +114,10 @@
                         <li>The organized MySQL database makes the users entries very easy to present, and encourages lots of usage and return visitors through C#, ASP.NET Core</li>
                         <li>Beautiful client side views made possible by Twitter Bootstrap, HTML5, CSS3</li>
                     </ul></p>
-                    <a href="#" class="btn btn-outline-secondary">Coming Soon!</a>
+                    <div class="temp-button">
+                        <p>Coming Soon!</p>
+                    </div>
+                    <!-- <a href="#" class="btn btn-outline-secondary">Coming Soon!</a> -->
                 </div>
             </div>
         </div>
@@ -150,7 +132,10 @@
                         <li>Seamless presentation for users out of their entered data with HTML5 and CSS3</li>
                         <br>
                     </ul></p>
-                    <a href="#" class="btn btn-outline-secondary">Coming Soon!</a>
+                    <div class="temp-button">
+                        <p>Coming Soon!</p>
+                    </div>
+                    <!-- <a href="#" class="btn btn-outline-secondary">Coming Soon!</a> -->
                 </div>
             </div>
         </div>
@@ -177,13 +162,36 @@
     <div class="containter-fluid padding">
         <div class="row text-center">
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/kid1.gif" alt="kid1">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">This is Bailey</p>
+                    </div>
+                    <img src="img/headshot01.png" class="card-img-top" alt="Bailey1">
+                </div>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/kid2.gif" alt="kid2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">This is NOT Bailey</p>
+                    </div>
+                    <img class="gif" src="img/kid3.gif" alt="kid1">
+                </div>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/kid3.gif" alt="kid3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">This is Bailey</p>
+                    </div>
+                    <img src="img/headshot02.png" class="card-img-top" alt="Bailey1">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">Again, NOT Bailey</p>
+                    </div>
+                    <img class="gif" src="img/kid2.gif" alt="kid2">
+                </div>
             </div>
         </div>
     </div>
@@ -197,12 +205,11 @@
             <h1 class="display-4">Technical Skills</h1>
             <hr>
         </div>
-        <div>
-            <img src="img/node-js-logo-png-clip-art.png" alt="">
+        <div class="padding-bottom-extra tech-img">
+            <img src="img/technicalskills2.png" alt="tech skills logos">
         </div>
     </div>
 </div>
-
 
 
 
@@ -212,51 +219,25 @@
 <!-- connect  -->
 
 <div class="container-fluid padding connect-background">
-    <div class="row text-center padding padding-top">
+    <div class="row welcome text-center padding padding-top">
         <div class="col-12">
-            <h2>Connect</h2>
+            <h1 class="display-4">Connect</h1>
+            <hr>
         </div>
         <div class="col-12 social padding">
-            <!-- <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a> -->
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/baileyvarness" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/baileyvarness" target="_blank"><i class="fab fa-github"></i></a>
         </div>
     </div>
 </div>
+
+
 
 <!-- footer  -->
 
 <footer>
     <div class="container-fluid padding">
         <div class="row text-center">
-            <!-- <div class="col-md-4">
-                <img src="img/logo2.png" alt="logo2">
-                <hr class="light">
-                <p>555-555-5555</p>
-                <p>email@email.com</p>
-                <p>100 Street Name</p>
-                <p>City, State 00000</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Our hours</h5>
-                <hr class="light">
-                <p>Monday: 9-5</p>
-                <p>Saturday: 10-5</p>
-                <p>Sunday: Closed</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Service Area</h5>
-                <hr class="light">
-                <p>City, State 00000</p>
-                <p>City, State 00000</p>
-                <p>City, State 00000</p>
-            </div> -->
             <div class="col-12">
                 <!-- <hr class="light-100"> -->
                 <h5>&copy; baileyvarness.dev</h5>

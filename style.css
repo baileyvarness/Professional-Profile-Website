@@ -19,7 +19,7 @@ html, body {
     font-size: 1.1em !important;
 }
 
-.top-img {
+/* .top-img {
     background-image: url('img/blue-and-white-mesh-net-3653997.jpg');
     height: 300px;
     width: auto;
@@ -27,7 +27,7 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
-}
+} */
 
 .centered {
     position: absolute;
